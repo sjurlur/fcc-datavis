@@ -8,6 +8,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         barChart: resolve(__dirname, "bar-chart/index.html"),
+        scatterplot: resolve(__dirname, "scatterplot/index.html"),
       },
     },
   },
