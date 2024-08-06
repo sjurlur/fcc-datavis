@@ -1,0 +1,13 @@
+import { resolve } from "path";
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, "index.html"),
+        barChart: resolve(__dirname, "bar-chart/index.html"),
+      },
+    },
+  },
+});
