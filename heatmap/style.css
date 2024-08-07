@@ -1,0 +1,18 @@
+.bar {
+  fill: blue;
+}
+
+#chart {
+  position: relative;
+}
+
+#tooltip {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+}
+
+#y-axis .domain {
+  display: none;
+}
