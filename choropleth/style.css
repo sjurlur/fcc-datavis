@@ -1,0 +1,27 @@
+.bar {
+  fill: blue;
+}
+
+#chart {
+  position: relative;
+}
+
+#tooltip {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+}
+
+#y-axis .domain {
+  display: none;
+}
+
+.county {
+  stroke: #000;
+  stroke-width: 0.1px;
+}
+.hover {
+  stroke: #000;
+  stroke-width: 1px;
+}
